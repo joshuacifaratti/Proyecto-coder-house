@@ -9,24 +9,26 @@ color: black;}
 
 a:hover{color:white;}
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 ul{list-style-type: none;
 text-align: center;
-text-decoration: none;}
+text-decoration: none;
+padding: 0;}
 
 .portada {width:100vw;
-height: 20vh;
+height: 30vh;
 background-image:url("../img/portadasports.jpg"); 
 background-repeat: no-repeat;
 background-position: center;
-background-size: contain;}
+background-size: cover;}
 
 h1{
 background-color: rgb(68, 65, 65);
 color: rgb(199, 0, 0);
 text-align: center;
 font-size: xx-large;
-font-style: italic; 
-padding: 8px;}
+font-style: italic;}
 
 h2{font-weight: 900;
 font-style: italic;
@@ -44,17 +46,13 @@ text-align: center;}
 
 main{margin: 15px;}
 
-header{position: sticky; top: 0px;}
+header{position: sticky; top: 0px; z-index: 2;}
 
 footer{position:relative; z-index: 2;}
 
-.nav{
-background-color: rgb(41, 38, 38);
-width: 100%;
-display: flex;
-justify-content: center; 
-justify-content: space-around;
-}
+.nav-contain{background-color: rgb(68, 65, 65);}
+
+
 
 .nav-btn{
 font-size: x-small;
@@ -77,8 +75,8 @@ align-items: center;}
 
 .iframe-ubi{width: 90%; height: 20vh;}
 
-.redes{padding: 5px;}
-.redes1{margin: 2px;}
+.redes{padding: 0px; text-align: center;}
+.redes1{margin: 2px; text-align: center;}
 
 .iframe{width: 100%;}
 
@@ -86,8 +84,9 @@ align-items: center;}
     height: 300px;   
 text-align: center;}
 
-.form{width: 200px;
-margin: 25px auto;}
+.form{width: 280px;
+padding: 0px;}
+
 
 .titulo-index{margin: 15px;}
 .titulo1{background-color: rgba(41, 38, 38, 0.288);border-radius: 10%;
@@ -98,7 +97,7 @@ margin: 25px auto;}
 
 .img{width: 100%;}
 
-.footer{background-color: rgb(68, 65, 65); height: 600px ;}
+.footer{background-color: rgb(68, 65, 65); height: 130vh ;}
 
 .new-news{border: 1px solid black; padding: 10px; 
 background-color: rgb(226, 226, 226);}
