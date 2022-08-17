@@ -91,10 +91,12 @@ margin: 25px auto;}
 
 .titulo-index{margin: 15px;}
 .titulo1{background-color: rgba(41, 38, 38, 0.288);border-radius: 10%;
-    color: rgb(199, 0, 0); font-size: 1.7rem; text-align: center;}
+    color: rgb(199, 0, 0); font-size: 1.7rem; text-align: center;
+box-shadow: 10px 10px 15px black;}
 .titulo-iframe{font-size: 1rem; margin: 10px;}   
 .titulo-noticia{font-size: 1.5rem; margin: 10px;} 
 .titulo{font-size: 1.5rem; text-align: center;}
+
 
 .img{width: 100%;}
 
@@ -274,7 +276,8 @@ width: 95%;}
     align-items: center;
 }
 .section-noticias1{
-    background-color: rgb(68, 65, 65);
+    background-color: rgb(168, 168, 168);
+    box-shadow:10px 10px 15px;
     border-radius: 10%;
     height: 300px;
     grid-area: noticias1;
@@ -283,7 +286,8 @@ width: 95%;}
     align-items: center;
 }
 .section-noticias2{
-    background-color: rgb(68, 65, 65);
+    background-color: rgb(168, 168, 168);
+    box-shadow:10px 10px 15px;
     border-radius: 10%;
     height: 300px;
     grid-area: noticias2;
@@ -292,7 +296,8 @@ width: 95%;}
     align-items: center;
 }
 .section-noticias3{
-    background-color: rgb(68, 65, 65);
+    background-color: rgb(168, 168, 168);
+    box-shadow:10px 10px 15px;
     border-radius: 10%;
     height: 300px;
     grid-area: noticias3;
@@ -301,44 +306,49 @@ width: 95%;}
     align-items: center;
 }
 .img-contain1{
+    margin-right: 12px;
     background-color: brown;
     border-radius: 10%;
-    width: 410px;
-    height: 300px;
+    width: 390px;
+    height: 280px;
     grid-area: imagen1;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: star;
+    box-shadow:10px 10px 15px;}
 
 .img-contain2{
+    margin-right: 12px;
     background-color: brown;
     border-radius: 10%;
-    width: 410px;
-    height: 300px;
+    width: 390px;
+    height: 280px;
     grid-area: imagen2;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: star;
+    box-shadow:10px 10px 15px;}
 
 .img-contain3{
+    margin-right: 12px;
     background-color: brown;
     border-radius: 10%;
-    width: 410px;
-    height: 300px;
+    width: 390px;
+    height: 280px;
     grid-area: imagen3;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: star;
+    box-shadow:10px 10px 15px;}
 
 .img-index{margin-bottom: 25px;
 width:370px;
 height: 270px;
 border-radius: 20px;
 display: flex;
-justify-content: center;
-align-items: center;}    
+justify-content: center;}    
 
-.titulo1{font-size: xxx-large;
+.titulo1{font-size: xx-large;
     text-align: center;
     margin: 15px;
     grid-area: titulo;
