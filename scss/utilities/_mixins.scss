@@ -1,0 +1,13 @@
+@mixin flexbox($justify-content, $align-items)
+{
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin decoration-text($font-size,$text-shadow,$font-style)
+{
+    font-size: $font-size;
+    text-shadow:$text-shadow;
+    font-style:$font-style;
+}

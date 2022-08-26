@@ -1,0 +1,9 @@
+.img-galeria{
+    margin: 5px;
+    width: 100%;
+    height: 40vh;
+    filter: grayscale(100%);}
+
+.img-galeria:hover{
+    transform: scale(1.1);
+filter: grayscale(0%);}

@@ -1,0 +1,10 @@
+header{position: sticky; top: 0px; z-index: 2;}
+h1{
+    background-color: $color-gris-oscuro;
+    color: $color-rojo;
+    text-align: center;
+    text-shadow: 3px 3px 5px $color-negro;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-style: italic;}
+.nav-contain{background-color: $color-gris-oscuro;}
