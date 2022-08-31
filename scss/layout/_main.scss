@@ -8,19 +8,18 @@
 
 
 .titulo-secundario{
-    @include decoration-text(2.2rem, 3px 3px 3px  $color-negro ,italic)}
+    @include decoration-text(2.2rem, 3px 3px 3px $negro ,italic,)}
+
 
 
 .titulo-noticia{
-@include decoration-text(2.2rem, 1px 1px 5px  $color-negro ,italic)
+@include decoration-text(2.2rem, 1px 1px 5px $negro ,italic)
 }    
 
 .titulo-iframe{font-size: 1.5rem;} 
 
 .iframe{width: 253px; height: 40vh;}
 
-
-.altura{height: 30rem;}
 
 .img-index{width: 100%; 
     height: 40vh;}
@@ -30,16 +29,16 @@
 width: 60%;
 margin: 5px;}
 
-.tarjeta-noticia{background-color: $color-gris-claro; 
-    border: 1px solid $color-negro;
+.tarjeta-noticia{background-color: map-get($colores, gris-claro); 
+    border: 1px ,solid map-get($colores,negro );
 width: 95vw;}
 
-.tarjeta-noticias{background-color: $color-gris-claro; 
-    border: 1px solid $color-negro;
+.tarjeta-noticias{background-color: map-get($colores, gris-claro); 
+    border: 1px solid ,map-get($colores, negro );
 width: 60%;}
 
-.tarjeta-iframe{background-color: $color-gris-claro; 
-    border: 1px solid $color-negro;
+.tarjeta-iframe{background-color: map-get($colores, gris-claro); 
+    border: 1px solid ,map-get($colores,negro );
 height: 65vh; 
 width: 60vh;
 @include flexbox ( center,center)
@@ -48,3 +47,6 @@ width: 60vh;
 .centrado-noticias{
     @include flexbox ( center,center)
 }
+
+.tarjeta-texto{font-size: 1.1rem;}
+

@@ -13,12 +13,18 @@
   font-weight: 900;
   text-shadow: 4px 4px 4px #000000;
   font-style: italic;
-  font-size: xx-large;
+  font-size: 2rem;
+}
+
+.altura {
+  height: 60vh;
 }
 
 a {
   text-decoration: none;
   color: #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
 }
 
 a:hover {
@@ -66,7 +72,7 @@ p {
 
 .titulo-redes {
   font-size: 1.8rem;
-  text-shadow: 3px 3px 3px #000000;
+  text-shadow: 3px 3px 3px, #000000;
   font-style: italic;
   text-align: initial;
 }
@@ -83,6 +89,18 @@ p {
   filter: grayscale(0%);
 }
 
+@media (max-width: 768px) {
+  .img-galeria {
+    margin: 5px;
+    width: 90%;
+    height: 40vh;
+    filter: none;
+  }
+  .img-galeria:hover {
+    transform: none;
+    filter: none;
+  }
+}
 header {
   position: sticky;
   top: 0px;
@@ -95,7 +113,7 @@ h1 {
   text-align: center;
   text-shadow: 3px 3px 5px #000000;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: xx-large;
+  font-size: 2.5rem;
   font-style: italic;
 }
 
@@ -134,10 +152,6 @@ h1 {
   height: 40vh;
 }
 
-.altura {
-  height: 30rem;
-}
-
 .img-index {
   width: 100%;
   height: 40vh;
@@ -151,19 +165,19 @@ h1 {
 
 .tarjeta-noticia {
   background-color: #e7e7e7;
-  border: 1px solid #000000;
+  border: 1px, solid #000000;
   width: 95vw;
 }
 
 .tarjeta-noticias {
   background-color: #e7e7e7;
-  border: 1px solid #000000;
+  border: 1px solid, #000000;
   width: 60%;
 }
 
 .tarjeta-iframe {
   background-color: #e7e7e7;
-  border: 1px solid #000000;
+  border: 1px solid, #000000;
   height: 65vh;
   width: 60vh;
   display: flex;
@@ -175,6 +189,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tarjeta-texto {
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

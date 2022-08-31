@@ -7,3 +7,17 @@
 .img-galeria:hover{
     transform: scale(1.1);
 filter: grayscale(0%);}
+
+@media(max-width:768px)
+{
+
+    .img-galeria{
+        margin: 5px;
+        width: 90%;
+        height: 40vh;
+        filter: none;}
+    .img-galeria:hover{
+        transform: none;
+        filter: none;
+    }
+}

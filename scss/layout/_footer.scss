@@ -1,11 +1,11 @@
 .ubicacion{width: 100%;}
 .iframe-ubi{ height: 20vh;}
 .footer{position:relative;
-    background-color: $color-gris-oscuro;}
+    background-color: map-get($colores, gris-oscuro);}
 .redes{width: 60%;}
 .redes1{margin: 5px; text-align: start;}
 .redes-animacion :hover{transform: scale(1.2); transition: 0.5s;}
 .titulo-redes{font-size: 1.8rem;
-    text-shadow: 3px 3px 3px $color-negro ;    
+    text-shadow: 3px 3px 3px ,map-get($colores, negro) ;    
     font-style: italic;
     text-align: initial;}
