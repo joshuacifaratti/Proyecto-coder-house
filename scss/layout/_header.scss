@@ -1,10 +1,10 @@
 header{position: sticky; top: 0px; z-index: 2;}
 h1{
-    background-color: map-get($colores,gris-oscuro );
-    color:map-get($colores, rojo );
+    background-color: map-get($colores,secundario );
+    color:map-get($colores, quinario );
     text-align: center;
-    text-shadow: 3px 3px 5px $negro ;
+    text-shadow: 3px 3px 5px $primario;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2.5rem;
     font-style: italic;}
-.nav-contain{background-color: map-get($colores, gris-oscuro );}
+.nav-contain{background-color: map-get($colores, secundario );}
