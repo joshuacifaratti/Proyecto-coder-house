@@ -38,8 +38,7 @@ width: 95vw;}
 width: 60%;}
 
 .tarjeta-iframe{background-color: map-get($colores,terciario); 
-    border: 1px solid ,map-get($colores,primario );
-height: 65vh; 
+    border: 1px solid ,map-get($colores,primario ); 
 width: 60vh;
 @include flexbox ( center,center)
 }
