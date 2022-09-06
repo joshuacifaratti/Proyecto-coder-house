@@ -1,51 +1,99 @@
-.portada-main{width:100%;
+.portada-main {
+    width: 100%;
     height: 200vh;
     margin-bottom: 30px;
-    background-image:url("../img/portada-corredores.png"); 
+    background-image: url("../img/portada-corredores.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;}
-
-
-.titulo-secundario{
-    @include decoration-text(2.2rem, 3px 3px 3px $primario ,italic,)}
-
-
-
-.titulo-noticia{
-@include decoration-text(2.2rem, 1px 1px 5px $primario ,italic)
-}    
-
-.titulo-iframe{font-size: 1.5rem;} 
-
-.iframe{width: 253px; height: 40vh;}
-
-
-.img-index{width: 100%; 
-    height: 40vh;}
-
-
-.img{height: 40vh;
-width: 60%;
-margin: 5px;}
-
-.tarjeta-noticia{background-color: map-get($colores, terciario); 
-    border: 1px ,solid map-get($colores,primario );
-width: 95vw;}
-
-.tarjeta-noticias{background-color: map-get($colores, terciario); 
-    border: 1px solid ,map-get($colores, primario);
-width: 60%;}
-
-.tarjeta-iframe{background-color: map-get($colores,terciario); 
-    border: 1px solid ,map-get($colores,primario ); 
-width: 60vh;
-@include flexbox ( center,center)
+    background-size: cover;
 }
 
-.centrado-noticias{
-    @include flexbox ( center,center)
+
+.titulo-secundario {
+    @include decoration-text(2.2rem, 3px 3px 3px $primario , italic, )
 }
 
-.tarjeta-texto{font-size: 1.1rem;}
 
+
+.titulo-noticia {
+    @include decoration-text(2.2rem, 1px 1px 5px $primario , italic)
+}
+
+.titulo-iframe {
+    font-size: 1.5rem;
+}
+
+.iframe {
+    width: 253px;
+    height: 40vh;
+}
+
+
+.img-index {
+    width: 100%;
+    height: 40vh;
+}
+
+
+
+.tarjeta-noticias {
+    background-color: map-get($colores, terciario);
+    border: 1px solid, map-get($colores, primario);
+    width: 60%;
+}
+
+.estructura-main {
+    display: flex;
+    flex-wrap: wrap;
+
+    section {
+        flex: 65%;
+        padding: 20px;
+        margin: 20px;
+
+        article {
+            margin: 5px;
+            
+            .img{
+                display: flex;
+                justify-content: center;
+
+            }
+            img {
+                height: 40vh;
+                width: 60%; 
+                margin-top: 15px;           
+            }
+        }
+    }
+
+    aside {
+
+        text-align: center;
+        flex: 25%;
+        padding: 20px;
+        background-color: $terciario;
+        margin: 20px;
+    }
+}
+
+
+.tarjeta-iframe {
+    background-color: map-get($colores, terciario);
+    border: 1px solid, map-get($colores, primario);
+    width: 60vh;
+    @include flexbox (center, center)
+}
+
+.centrado-noticias {
+    @include flexbox (center, center)
+}
+
+.tarjeta-texto {
+    font-size: 1.1rem;
+}
+
+.imgs{
+    width: 50%;
+    height: 40vh;
+}
