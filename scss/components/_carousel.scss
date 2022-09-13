@@ -5,4 +5,9 @@
     font-size: 2rem;}
 
     .altura{height: 60vh;
-    width: auto;}
+    width: 70%; 
+    @media(max-width:480px){
+        width: 100%;
+        height: 30vh;
+    }
+}
