@@ -264,7 +264,7 @@ h1 {
 }
 
 aside {
-  height: 110vh;
+  height: 100%;
 }
 
 .aside-card {
@@ -274,6 +274,7 @@ aside {
   background-color: #ffffff;
   border: 1px solid black;
   margin-top: 20px;
+  height: 100%;
 }
 .aside-card a {
   font-size: 0.8rem;
